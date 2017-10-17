@@ -20,12 +20,18 @@
 
   output 
   
+  ![image](https://raw.githubusercontent.com/WeakestCoder/ServiceComputing/master/HW1/screenshot/2.png)
+  
 3.input **./selpg -s 2 -e 1 l_file 2>error**
 
   output
+  
+  ![image](https://raw.githubusercontent.com/WeakestCoder/ServiceComputing/master/HW1/screenshot/3.png)
 4.input **./selpg -s 1 -e 2 l_file > output 2>error**  
 
   output
+  
+  ![image](https://raw.githubusercontent.com/WeakestCoder/ServiceComputing/master/HW1/screenshot/4.png)
   
 5.input **./selpg -s 1 -e 1 l_file >output 2>/dev/null**
 
@@ -34,11 +40,18 @@
 6.input **./selpg -s 1 -e 1 -l 3 l_file**  
 
   output 
+  
+  ![image](https://raw.githubusercontent.com/WeakestCoder/ServiceComputing/master/HW1/screenshot/6.png)
 
 7.input **./selpg -s 1 -e 6 -f f_file**
 
   output
   
+  ![image](https://raw.githubusercontent.com/WeakestCoder/ServiceComputing/master/HW1/screenshot/7.png)
 8.input **./selpg -s 1 -e 1 -d lp1 l_line**
   
   output：无打印机 无法测试
+  
+  报错信息
+  如下
+  ![image](https://raw.githubusercontent.com/WeakestCoder/ServiceComputing/master/HW1/screenshot/8.png)
