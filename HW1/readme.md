@@ -14,7 +14,7 @@
 1.input **./selpg -s 1 -e 1 l_file**
   
   output   
-  ![1]:(https://raw.githubusercontent.com/WeakestCoder/ServiceComputing/master/HW1/screenshot/1.png)
+  ![image](https://raw.githubusercontent.com/WeakestCoder/ServiceComputing/master/HW1/screenshot/1.png)
   
 2.input **./selpg -s 1 -e 1 l_file > output**  
 
