@@ -11,6 +11,33 @@
 
 ## 测试部分
 生成两个文件，l_file和f_file，l文件有1000行，每行为line n emmm， n代表行数'\n'用于换行，而f文件则是以'\f'作为换行 也是1000行  
-1.input **go run selpg.go -s 1 -e 1 l_file**
+1.input **./selpg -s 1 -e 1 l_file**
   
+  output   
+  
+2.input **./selpg -s 1 -e 1 l_file > output**  
+
   output 
+  
+3.input **./selpg -s 2 -e 1 l_file 2>error**
+
+  output
+4.input **./selpg -s 1 -e 2 l_file > output 2>error**  
+
+  output
+  
+5.input **./selpg -s 1 -e 1 l_file >output 2>/dev/null**
+
+  output文件输出跟4一样。没有错误消息打印到命令行 
+  
+6.input **./selpg -s 1 -e 1 -l 3 l_file**  
+
+  output 
+
+7.input **./selpg -s 1 -e 6 -f f_file**
+
+  output
+  
+8.input **./selpg -s 1 -e 1 -d lp1 l_line**
+  
+  output：无打印机 无法测试
